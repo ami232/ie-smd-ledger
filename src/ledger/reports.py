@@ -26,7 +26,7 @@ def is_spending(t: Transaction) -> bool:
 
 def balances(transactions: Iterable[Transaction]) -> dict[str, Decimal]:
     """The balance of each account, by account name."""
-    totals = totals_by(transactions, key=lambda t: t.account)
+    totals = totals_by(transactions, key=lambda t: t.account.name)
     return dict(sorted(totals.items()))
 
 
