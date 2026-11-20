@@ -6,16 +6,15 @@ Reference version of `ledger`, the application built step by step in the labs of
 
 ## Versions
 
-Each tag is the state of the project **at the start of a session**, which is also the solution of the previous lab:
+Each tag is one state of the project, the solution of one lab:
 
-| Tag | Start of | Contents |
-|---|---|---|
-| `s05-start` | session 5 (Git) | the result of Lab 4: Python 3.14 project with uv, `rich` for the table, Ruff as a development dependency, a VS Code debug configuration |
-| `s06-start` | session 6 (project structure) | the same code as `s05-start`: Lab 5 only put it in a repository |
-| `s07-start` | session 7 (databases) | the result of Lab 6: a package with `models`, `storage`, `reports` and `cli`, a `months` command, Ruff rules in `pyproject.toml` |
-| `s08-start` | session 8 (API) | the result of Lab 7: the transactions in a SQLite database through SQLAlchemy, with `import` and `add` commands |
+| Tag | Contents |
+|---|---|
+| `s05-start`, `ledger-script` | the ledger as one file: Python 3.14 project with uv, `rich` for the table, Ruff as a development dependency, a VS Code debug configuration |
+| `ledger-package` | a package with `models`, `storage`, `reports` and `cli`, a `months` command, Ruff rules in `pyproject.toml` |
+| `ledger-database` | the transactions in a SQLite database through SQLAlchemy, with `import` and `add` commands |
 
-If you fall behind, copy the files of the tag for your session into your own repository (on GitHub: switch to the tag, then **Code → Download ZIP**). Don't fork or clone this repository as your own: your repository must have your own history.
+If you fall behind, copy the files of the tag you need into your own repository (on GitHub: switch to the tag, then **Code → Download ZIP**). Don't fork or clone this repository as your own: your repository must have your own history.
 
 ## Run it
 
