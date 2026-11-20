@@ -13,6 +13,7 @@ Each tag is one state of the project, the solution of one lab:
 | `s05-start`, `ledger-script` | the ledger as one file: Python 3.14 project with uv, `rich` for the table, Ruff as a development dependency, a VS Code debug configuration |
 | `ledger-package` | a package with `models`, `storage`, `reports` and `cli`, a `months` command, Ruff rules in `pyproject.toml` |
 | `ledger-database` | the transactions in a SQLite database through SQLAlchemy, with `import` and `add` commands |
+| `package-starter`, `database-starter` | the files that the labs give you to start, with `TODO` comments where you write the code |
 
 If you fall behind, copy the files of the tag you need into your own repository (on GitHub: switch to the tag, then **Code → Download ZIP**). Don't fork or clone this repository as your own: your repository must have your own history.
 
